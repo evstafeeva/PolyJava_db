@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A19E7239-1B19-2FD0-7132-EC01088B28EC" name="Заказ">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A19E7239-1B19-2FD0-7132-EC01088B28EC" name="ЗАКАЗ">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:02:14 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Дата заказа" id="CB7CD12A-CE5D-02D9-3B73-C2B154D95402">
+<Attribute name="Дата Заказа" id="CB7CD12A-CE5D-02D9-3B73-C2B154D95402">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:03:06 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Приобретенные товры" id="C8CCFCFB-AECD-5219-8ABC-32942276D8C9">
+<Attribute name="Приобретенные Товры" id="C8CCFCFB-AECD-5219-8ABC-32942276D8C9">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:03:28 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -75,7 +75,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Store card" id="DC926C32-1F4A-6542-68F3-E16D72D5F70B">
+<Attribute name="Store Сard" id="DC926C32-1F4A-6542-68F3-E16D72D5F70B">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 11:09:03 UTC</createdTime>
 <generatorID>327B9A19-5E76-941C-3CBD-026D93847E06</generatorID>

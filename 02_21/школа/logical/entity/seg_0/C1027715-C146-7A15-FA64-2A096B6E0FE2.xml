@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1027715-C146-7A15-FA64-2A096B6E0FE2" name="КЛАСС">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:43:09 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6399525B-73DB-2B31-651E-616329225414">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:43:24 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Название" id="A953BCE7-1EB1-02B7-573F-F7CE4C0BB0E0">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:43:38 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Курс" id="E893A78A-AF77-CE45-5F0E-DE81884E32E4">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:43:55 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Преподаватель" id="0B6A30C0-ED3A-0A80-4EE6-9698BC56C715">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:44:02 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="67D4E29D-4559-1A1E-5A51-A389613CA2A6">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:57:07 UTC</createdTime>
+<generatorID>78E0F6F0-00E9-A979-DF64-77E1D6C6B213</generatorID>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ABFED9A8-6974-1B53-7803-7D60133CD252</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C03D06E-B1FD-CBE7-7B46-4DEC7902F4F0" name="КЛАСС PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 09:43:37 UTC</createdTime>
+<ownerDesignName>школа</ownerDesignName>
+<engineerTo>
+<item key="3B789EC9-FAC7-EA9D-DC54-9A4A0A876916" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6399525B-73DB-2B31-651E-616329225414</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

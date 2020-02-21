@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB565F30-273A-C19E-2DD2-BEBDDB1B505C" name="Команда">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB565F30-273A-C19E-2DD2-BEBDDB1B505C" name="КОМАНДА">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 09:54:21 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Store card" id="A316BE95-EAD9-C025-7CCC-5F48947B241F">
+<Attribute name="Store Сard" id="A316BE95-EAD9-C025-7CCC-5F48947B241F">
 <createdBy>skazk</createdBy>
 <createdTime>2020-02-20 23:13:04 UTC</createdTime>
 <generatorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</generatorID>

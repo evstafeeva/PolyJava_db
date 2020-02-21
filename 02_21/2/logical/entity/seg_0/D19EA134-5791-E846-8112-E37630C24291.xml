@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D19EA134-5791-E846-8112-E37630C24291" name="Товар на складе">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D19EA134-5791-E846-8112-E37630C24291" name="ТОВАР НА СКАЛДЕ">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:15:02 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID товара" id="5AB9D32B-F6AA-5FFA-D708-11D5DCE0BE8C">
+<Attribute name="ID Товара" id="5AB9D32B-F6AA-5FFA-D708-11D5DCE0BE8C">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:15:22 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Оптовая цена" id="B649DEB3-3457-684F-4560-BD9EDB526033">
+<Attribute name="Оптовая Цена" id="B649DEB3-3457-684F-4560-BD9EDB526033">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:15:38 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
