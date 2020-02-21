@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDB21794-454F-7706-B89E-376DD0824646" name="Парикхмахер">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:07:23 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID " id="016E41ED-D7C6-3199-3C3E-4F5EB7A83D91">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:08:58 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="D42F2B88-54DE-EEF1-B815-BC50FF60C342">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:07:45 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Фамилия" id="0776EE8E-639F-74A2-510E-C98C168B08E5">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:07:48 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="D7518501-1FC7-7879-426F-A88E2497DEA8">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:07:55 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="34D44654-D22F-0C7C-105D-ACBAA141D7D0">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:08:04 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Страховой полис" id="2A1BE4E4-2529-C3D0-EFB4-69522FC982D0">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:08:10 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЗП" id="7C7C793A-77F3-C647-A4B7-F12351E45F6C">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:08:18 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D192A1D-EA02-4BE7-F818-153FB861AA8C" name="Парикхмахер PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:09:05 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>016E41ED-D7C6-3199-3C3E-4F5EB7A83D91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

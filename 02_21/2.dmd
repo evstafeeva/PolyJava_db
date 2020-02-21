@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="2" id="B800E1E1-B77F-260C-9610-D3AD0ED0815D" version="3.5">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:14:22 UTC</createdTime>
+<ownerDesignName>магазин</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B800E1E1-B77F-260C-9610-D3AD0ED0815D</designId>
+</OSDM_Design>

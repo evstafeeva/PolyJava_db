@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D28A99C-72FA-821A-5A4A-7E4A783BD481" name="Клиент">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:09:27 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="351E0864-8224-C304-6DF5-1EBCC25D8631">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:03 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="1B12146C-9BBD-8573-7D0F-00D62B266B78">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:42 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Фамилия" id="13D0F6F7-C9F5-ED53-1233-EFC12318FD3B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:47 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="D9D5746D-C6D9-FD57-A206-FB1C61DE0720">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:51 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Кто обслужил" id="B4F80940-9B4C-DA88-BD23-D59E447B6C09">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:11:01 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Предпочтительный парикхмахер" id="98843A0B-4939-F61D-AC1B-BDF5CC32F06F">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:09:33 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Время записи" id="89CB3D2F-76C4-49FF-828B-CD0DA0995E3F">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:11 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID " id="A6E5669F-6698-CC40-7772-A2AF39B51102">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:14:51 UTC</createdTime>
+<generatorID>140D32B3-815E-4182-C728-6F6852E8071C</generatorID>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>016E41ED-D7C6-3199-3C3E-4F5EB7A83D91</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B04DA24-A98C-4098-2EA8-F94DFCC30963" name="Клиент PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-21 00:10:08 UTC</createdTime>
+<ownerDesignName>салон</ownerDesignName>
+<engineerTo>
+<item key="5E45E0C9-5FEB-0C85-CC6E-B7E54DC152E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>351E0864-8224-C304-6DF5-1EBCC25D8631</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
