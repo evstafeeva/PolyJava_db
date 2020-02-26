@@ -53,6 +53,17 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Число Игроков" id="BA3953AC-FA38-17FB-C861-D578F311DD09">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:47:26 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3CB0EC4C-8BB6-B7BE-DDEB-9A14C7EE2C85" name="Команда PK">

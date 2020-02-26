@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB565F30-273A-C19E-2DD2-BEBDDB1B505C" name="КОМАНДА">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:54:21 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D1D7051F-4480-1596-68CA-6DA608D75EDA">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:54:48 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="7669443E-EF01-2606-8473-0D37C7493833">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:01:17 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Store Сard" id="A316BE95-EAD9-C025-7CCC-5F48947B241F">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-20 23:13:04 UTC</createdTime>
+<generatorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<referedAttribute>EEDAE106-75ED-EF53-40A8-9275F2BBB688</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Число Игроков" id="BA3953AC-FA38-17FB-C861-D578F311DD09">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:47:26 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CB0EC4C-8BB6-B7BE-DDEB-9A14C7EE2C85" name="Команда PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:02:02 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1D7051F-4480-1596-68CA-6DA608D75EDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="26F0A75B-F5B0-7DD0-7BF2-ABE501DF9DFF">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:24:08 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<sourcePk>67FF70B8-46DD-91DC-5A4E-04C3D3B0CDF0</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>включают</nameOnSource>
+<nameOnTarget>являются частью</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AD936C6-241B-6A34-43C4-35452212E0FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92876383-595B-8DD0-B9EA-D462E031A0A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

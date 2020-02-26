@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1699628B-6C8E-B780-C090-9BF7F4CADAEB" name="ПРЕПОДАВАЕМЫЕ КУРСЫ">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:01:45 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Аудитория" id="37BE4D34-DD6F-DE72-D0FC-0CC80BECD4E8">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:03:34 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="DB7AD4DE-7D5C-B7DE-16EB-77C62AED7CF4">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:03:58 UTC</createdTime>
+<generatorID>C3D5B8BB-0C5A-99E9-FBB7-5C813AEA2CC8</generatorID>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>C07A958D-CA44-AFD5-907B-DD12BC009579</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C76C65E8-FAC8-BDBE-C9E0-1F92B874D8CC">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:04:12 UTC</createdTime>
+<generatorID>A031BEBA-6198-42FB-DF91-958EABE8F7E9</generatorID>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>5A9BAA8E-58B6-8025-9128-3509986AB0BA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70AA16F2-853E-BF2C-6CE5-C273AA279C9A" name="ПРЕПОДАВАЕМЫЕ КУРСЫ PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:03:58 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB7AD4DE-7D5C-B7DE-16EB-77C62AED7CF4</attributeRef>
+<attributeRef>C76C65E8-FAC8-BDBE-C9E0-1F92B874D8CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

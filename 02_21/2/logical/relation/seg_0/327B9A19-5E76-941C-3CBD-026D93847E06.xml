@@ -6,11 +6,12 @@
 <engineerTo>
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
+<targetTransferable>false</targetTransferable>
 <sourcePk>24B5BEF9-334D-955F-3FF2-E40452F98922</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <nameOnSource>составляет</nameOnSource>
 <nameOnTarget>составлен</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A478B25C-ECAB-70A3-E48D-1DCE2137BB9A</sourceEntity>

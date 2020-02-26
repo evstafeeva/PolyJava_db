@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92876383-595B-8DD0-B9EA-D462E031A0A5" name="ЗАКАЗАННЫЕ ТОВАРЫ">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:59:20 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Количество Кадого Товара" id="2F916A82-71C1-D7B1-0D3A-CA8DEAAA9FF3">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:22:18 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Доставленное Количество" id="4D54D43C-5E08-A39E-A96A-BBEF0C607716">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:22:28 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="CDF316FB-E22C-8CDE-FF98-6DA9535680F5">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:22:59 UTC</createdTime>
+<generatorID>706799C7-425A-5DCA-A6D4-45610C8DC8CC</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<referedAttribute>926EEF94-555A-77E4-6FD4-1F8A102B0787</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="52CAAF8F-4A34-EC63-54B3-A8C5E5889D59">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:24:08 UTC</createdTime>
+<generatorID>26F0A75B-F5B0-7DD0-7BF2-ABE501DF9DFF</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<referedAttribute>BC332ECD-17D8-E6D8-EFE9-54F0207F658E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FCB9EFB-9A90-973A-1B38-8AE1AA2D80B0" name="ЗАКАЗАННЫЕ ТОВАРЫ PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 12:22:59 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDF316FB-E22C-8CDE-FF98-6DA9535680F5</attributeRef>
+<attributeRef>52CAAF8F-4A34-EC63-54B3-A8C5E5889D59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

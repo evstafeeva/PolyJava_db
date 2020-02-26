@@ -93,7 +93,6 @@
 <engineerTo>
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
@@ -106,7 +105,21 @@
 <engineerTo>
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Badge Number1" id="156C0A9C-0CDE-E824-F5B3-0127A49F83C7">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 13:56:48 UTC</createdTime>
+<generatorID>79212CB0-A61A-814B-B4C5-9BD4DFBDAEDF</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAC500C2-6AEF-DF22-25ED-750B7ACDCB02</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

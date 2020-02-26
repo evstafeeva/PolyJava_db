@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1AB08A5-711F-C4C1-7234-14CE91D77955" name="ЭКЗАМЕН">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:07:26 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID2" id="95770D14-15A3-18CB-0FFC-D1C5C912DC07">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:10:19 UTC</createdTime>
+<generatorID>50047864-7B5B-76D5-3702-096CC517D806</generatorID>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>1C5F73EA-1C51-CCA4-755B-4E8C85CE787A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="19F04BA4-8643-3859-00C1-92713C40CA81">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:11:16 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="85814BC1-C7E6-6455-73A6-1A800B88333C">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:10:19 UTC</createdTime>
+<generatorID>50047864-7B5B-76D5-3702-096CC517D806</generatorID>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>C333A8FB-C871-B79A-6E1C-47FACE305204</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата проведения" id="059F3D19-7F81-269A-3AD1-C15E5A23D816">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:10:57 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Оценка" id="A369E86C-763F-376A-4C8C-B8217B03FB10">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:11:07 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E29E665D-9EC8-AE74-0171-2C6758A4A00D" name="ЭКЗАМЕН PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 16:11:19 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19F04BA4-8643-3859-00C1-92713C40CA81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42B4A5C8-EC03-69EE-123C-004872ECEA33" name="Команда">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:15:13 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="147C84D8-E6CC-753A-4D21-56DF763F0C9A">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:20:07 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="C647702A-9A7B-82F0-0554-1F70C2EBA0C3">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:20:07 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51BF8791-81CB-D153-8F69-3AC087B2CD5C" name="Команда_PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 09:20:07 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C647702A-9A7B-82F0-0554-1F70C2EBA0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

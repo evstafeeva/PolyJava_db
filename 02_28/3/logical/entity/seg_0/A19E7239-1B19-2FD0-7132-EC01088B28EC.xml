@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A19E7239-1B19-2FD0-7132-EC01088B28EC" name="ЗАКАЗ">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:02:14 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="926EEF94-555A-77E4-6FD4-1F8A102B0787">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:02:25 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата Заказа" id="CB7CD12A-CE5D-02D9-3B73-C2B154D95402">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:03:06 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Приобретенный Товр" id="C8CCFCFB-AECD-5219-8ABC-32942276D8C9">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:03:28 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Стоимость" id="494627C6-15C4-49EE-AFD7-F0CE038FEE44">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:04:41 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество " id="73871163-F6AB-0F9C-D36D-7C887153726F">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:05:06 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Общая Стоимость" id="1B1C1C70-EDCA-A36C-4E6A-72C9AA5B1AEF">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:54:17 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Размер Товра" id="8D42EF7B-55FC-18FC-DF73-F183476CE29D">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:54:56 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цвет Товара" id="FB3FF13F-49CA-EDB4-4E27-4A344828001A">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:55:06 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Store Сard" id="DC926C32-1F4A-6542-68F3-E16D72D5F70B">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 11:09:03 UTC</createdTime>
+<generatorID>327B9A19-5E76-941C-3CBD-026D93847E06</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<referedAttribute>EEDAE106-75ED-EF53-40A8-9275F2BBB688</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32E491CB-E1C6-2690-908E-520271CE4EB4" name="Заказ PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:03:04 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>926EEF94-555A-77E4-6FD4-1F8A102B0787</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

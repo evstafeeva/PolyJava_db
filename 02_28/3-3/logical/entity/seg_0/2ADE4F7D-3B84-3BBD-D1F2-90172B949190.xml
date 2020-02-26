@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ADE4F7D-3B84-3BBD-D1F2-90172B949190" name="ПОСЕЩАЕМЫЕ КРУСЫ">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:58:02 UTC</createdTime>
+<ownerDesignName>3-3</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Сдача экзамена" id="E379C34F-07E4-38A9-2CC7-0B914A7DC7C2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:58:12 UTC</createdTime>
+<ownerDesignName>3-3</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="23D33402-2171-37B0-7B26-CD6B825C2BCB">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:58:37 UTC</createdTime>
+<generatorID>5BE46D8C-A344-EDC8-128A-9A9FD45EA3FE</generatorID>
+<ownerDesignName>3-3</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>C88B1E99-9C19-166B-5164-80D00041976A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="5677BBED-C907-0C83-3CEC-467C793ED002">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:58:41 UTC</createdTime>
+<generatorID>17A5D350-25B0-854A-F85B-33D7BCDB8B64</generatorID>
+<ownerDesignName>3-3</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<referedAttribute>EF0B2F03-86C8-4803-B536-B62F2E51F739</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF0EEFAF-B307-A198-22F5-A3259DACD8D9" name="ПОСЕЩАЕМЫЕ КРУСЫ PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:58:37 UTC</createdTime>
+<ownerDesignName>3-3</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23D33402-2171-37B0-7B26-CD6B825C2BCB</attributeRef>
+<attributeRef>5677BBED-C907-0C83-3CEC-467C793ED002</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

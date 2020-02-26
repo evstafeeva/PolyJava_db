@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Приобретенные Товры" id="C8CCFCFB-AECD-5219-8ABC-32942276D8C9">
+<Attribute name="Приобретенный Товр" id="C8CCFCFB-AECD-5219-8ABC-32942276D8C9">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:03:28 UTC</createdTime>
 <ownerDesignName>2</ownerDesignName>
@@ -69,10 +69,41 @@
 <engineerTo>
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Общая Стоимость" id="1B1C1C70-EDCA-A36C-4E6A-72C9AA5B1AEF">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:54:17 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Размер Товра" id="8D42EF7B-55FC-18FC-DF73-F183476CE29D">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:54:56 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цвет Товара" id="FB3FF13F-49CA-EDB4-4E27-4A344828001A">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:55:06 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Store Сard" id="DC926C32-1F4A-6542-68F3-E16D72D5F70B">
@@ -84,20 +115,6 @@
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
 <referedAttribute>EEDAE106-75ED-EF53-40A8-9275F2BBB688</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Badge Number" id="46FDF97E-AF1B-B473-8148-02600762770B">
-<createdBy>Alena</createdBy>
-<createdTime>2020-02-14 11:09:20 UTC</createdTime>
-<generatorID>E205FFC8-D8D1-EA9B-73D7-0BE6A5D22477</generatorID>
-<ownerDesignName>2</ownerDesignName>
-<engineerTo>
-<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
-</engineerTo>
-<referedAttribute>DAC500C2-6AEF-DF22-25ED-750B7ACDCB02</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -115,8 +132,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>926EEF94-555A-77E4-6FD4-1F8A102B0787</attributeRef>
-<attributeRef>DC926C32-1F4A-6542-68F3-E16D72D5F70B</attributeRef>
-<attributeRef>46FDF97E-AF1B-B473-8148-02600762770B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

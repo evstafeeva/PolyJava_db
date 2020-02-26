@@ -12,11 +12,11 @@
 <nameOnSource>Имеет представителя</nameOnSource>
 <nameOnTarget>Представляет</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>BB565F30-273A-C19E-2DD2-BEBDDB1B505C</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
-<targetEntity>A478B25C-ECAB-70A3-E48D-1DCE2137BB9A</targetEntity>
+<targetEntity>9FAEE274-603B-0166-D8CE-D49D61FF23C4</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

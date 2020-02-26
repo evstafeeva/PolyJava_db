@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00478295-B377-C317-14DD-C970E6AA61A8" name="СТУДЕНТ">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:57:00 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="EF0B2F03-86C8-4803-B536-B62F2E51F739">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:57:28 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="296BA518-4303-F74E-80A7-CD5B6E3CD703">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:57:34 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFBD56F0-AA9A-1820-6357-2EB73FC5A765" name="СТУДЕНТ PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 15:57:33 UTC</createdTime>
+<ownerDesignName>3-1</ownerDesignName>
+<engineerTo>
+<item key="F00FE1E9-4FC6-F451-FC5F-18D5927BDCF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF0B2F03-86C8-4803-B536-B62F2E51F739</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
