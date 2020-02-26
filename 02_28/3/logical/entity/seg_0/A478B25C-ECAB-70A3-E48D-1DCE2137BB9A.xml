@@ -66,19 +66,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Адрес" id="6E9376BE-AB10-6EA9-D74E-1DA60E556220">
-<createdBy>Alena</createdBy>
-<createdTime>2020-02-14 10:07:01 UTC</createdTime>
-<ownerDesignName>3</ownerDesignName>
-<engineerTo>
-<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Телефон" id="AA715241-2A9C-85A0-A631-B79A5AA20726">
 <createdBy>Alena</createdBy>
 <createdTime>2020-02-14 10:09:03 UTC</createdTime>
@@ -86,7 +73,6 @@
 <engineerTo>
 <item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
