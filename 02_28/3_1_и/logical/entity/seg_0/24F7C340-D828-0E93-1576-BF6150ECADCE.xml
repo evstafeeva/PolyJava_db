@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24F7C340-D828-0E93-1576-BF6150ECADCE" name="ИнИНДИВИДУАЛЬНЫЕ КЛИЕНТЫ">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:10:16 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер домашнего телефона" id="7DD83ABD-1B4F-31DB-5CDD-C2A0094BA658">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:13:35 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="0614B59E-6238-3A7B-BBDB-263523D2D56D">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:13:45 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="6054B348-5456-AE57-FDA0-1A92D0A6318A">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:13:53 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Состояние" id="8D338187-6AE0-208E-F81F-ECD740CAF0E8">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:14:17 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер водУдост" id="3A9A3B88-3D16-1838-73DA-0B4C24FD5B48">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:14:22 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Срок действия водУдост" id="FA3AE39E-981E-5C15-029D-027523FFCF4F">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:14:38 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Уровень риска" id="77247D31-C97E-109F-C8FE-7BA547115141">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:15:29 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3178CFF8-8DDD-8729-0ED3-E51BFCD584AE" name="ИнИНДИВИДУАЛЬНЫЕ КЛИЕНТЫ PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:13:44 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DD83ABD-1B4F-31DB-5CDD-C2A0094BA658</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

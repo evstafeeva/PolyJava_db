@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86D049E2-237A-7F23-7C5A-7A135622F9E2" name="ГРУЗОВОЙ24Ф">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:24:47 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C73FE446-D1C7-D7D5-F753-C8AA4203C5D2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Код" id="6EB24CAC-638E-3FF3-0867-A1272F7E40C0">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:29:48 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата посл ТехОсмт" id="1E682CAA-C534-8399-FE27-4F104F715060">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:58:16 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата оконс Регистр" id="25CA68A9-A714-DE21-D533-4DEA027A0FEF">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:58:26 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="показания Одометра" id="AB6F57D9-D997-BC88-AAAD-B661945FFA72">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:01:22 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="емкость Топл.бака" id="CB291768-FBC8-6A6D-3983-5E712C469CED">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:01:31 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наличие радио" id="8189744F-BD6C-0A35-9D8A-0BB7FB576134">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:01:49 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D052B79C-2354-605C-8357-912387E0EAE8" name="ГРУЗОВОЙ24Ф PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:30:11 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EB24CAC-638E-3FF3-0867-A1272F7E40C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

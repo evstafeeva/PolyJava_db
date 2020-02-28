@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEF4E8AF-017A-2FFA-9B8C-C6E59436D1DB" name="ГРУЗОВОЙ36Ф">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:24:02 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C73FE446-D1C7-D7D5-F753-C8AA4203C5D2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Код" id="F1F76B18-6226-6108-531C-1A61461D4653">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:29:17 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата посл ТехОсмотра" id="1855ACD8-9E3A-8205-26AD-A79519158C73">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:52:08 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата оконч Срока Регистр" id="E283DD1E-D8DE-99A7-ACD7-9696CB74941D">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:53:46 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="показание Одометра" id="E75BCEB5-38F1-04CB-D6BD-FC4FC4D18D18">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:59:37 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="емкость топл.Бака" id="96E22A31-D182-2C54-8B95-00A907E06B27">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:00:09 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наличие радио" id="31061398-9FFC-A0A0-D2F2-8C71AB431511">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:00:19 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E3A2718-1937-9344-8A3D-F2EFDC8719B6" name="ГРУЗОВОЙ36Ф PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:29:36 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1F76B18-6226-6108-531C-1A61461D4653</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

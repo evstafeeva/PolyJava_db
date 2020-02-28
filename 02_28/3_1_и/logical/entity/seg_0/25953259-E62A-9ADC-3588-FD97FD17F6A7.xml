@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25953259-E62A-9ADC-3588-FD97FD17F6A7" name="ПУНКТ ПРОКАТА">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:12:50 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FC81C93B-B8EA-A0AB-91EC-E5442429F95C">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:25:39 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Название" id="28AAB461-D516-15D6-32D5-50E0F1FD1E1B">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:13:45 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="685575B3-E850-F44C-D98F-B4857D05BEA5">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:13:02 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0B17D9C-6DD2-EBCC-7554-7D97D3E58D38" name="ПУНКТ ПРОКАТА PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:13:58 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC81C93B-B8EA-A0AB-91EC-E5442429F95C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

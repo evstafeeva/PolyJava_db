@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E9E3587-9C78-3A2C-64E4-7B6F47F1DBE1" name="АВТОФУРГОН8КРПР">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:26:26 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C73FE446-D1C7-D7D5-F753-C8AA4203C5D2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Код" id="1F9415B3-E9FA-B62F-5560-F5C2BA83B588">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:30:48 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата посл техОсмтр" id="6565134B-60CD-E927-C872-29BB744EC206">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:56:26 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата оконч Срока Регистр" id="75B1ECAF-E2B8-E33B-06BB-4CDCE0B4FE83">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:56:47 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="МаксГрузоп" id="1E365805-741B-22E9-2E98-4C31E527AA16">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:03:48 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DB7FDC8-CC23-9638-6FAE-74DBB02A69B2" name="АВТОФУРГОН8КРПР PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 10:31:05 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F9415B3-E9FA-B62F-5560-F5C2BA83B588</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

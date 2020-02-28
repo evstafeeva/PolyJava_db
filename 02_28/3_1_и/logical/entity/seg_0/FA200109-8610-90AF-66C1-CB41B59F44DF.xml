@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA200109-8610-90AF-66C1-CB41B59F44DF" name="АРЕНДА">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:03:06 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер договора" id="9D504D4E-0FBD-991D-8EAC-038F2A9CBC65">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:16:47 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер пункта проката" id="E43053E3-3C63-1E1D-8208-C925B42287A3">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:16:55 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Пробег" id="EE7A304C-A044-F986-D2D1-05B6DDE1C459">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:03:17 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Обновленный пробег" id="DB35AA21-F747-593C-2BEF-32C3FB0E4CEF">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:09:02 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата аренды" id="8144738F-947B-4E4B-DE43-55ABA4FAEE14">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:18:03 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Срок аренды" id="0DAF8C3B-8407-742F-722F-DB5ADD78CED7">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:18:11 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Исходный пункт проката" id="C8486755-1E4D-6626-34A8-8C8FE843B3EA">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:18:15 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Пункт возврата" id="EFFAEB0E-8BDE-838F-D422-877502647374">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:18:39 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Внесенная сумма депозита" id="580AAB11-B372-6199-3603-40832F0EFA55">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:18:53 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Расчетный тариф посут аренды" id="EE58CE2C-1E14-0DD1-E0C6-72DA2C200FD2">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:19:12 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Расчет тариф за милю" id="6F9EEBF1-05ED-C922-5FE0-160E42543762">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:19:28 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер" id="1A55C642-9545-D608-325C-7F23A425F15C">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:27:38 UTC</createdTime>
+<generatorID>5A398740-6A0C-D9B4-34C0-38A5EC5848E8</generatorID>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<referedAttribute>49048D01-0B0D-6203-59D6-E30DCDD78E2C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер домашнего телефона" id="FB465793-8978-09A3-2793-73BF8C631F91">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:27:53 UTC</createdTime>
+<generatorID>3E0B7D91-4404-4982-3C5D-95DB2D2A44F8</generatorID>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<referedAttribute>7DD83ABD-1B4F-31DB-5CDD-C2A0094BA658</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3A14C6E-7A0B-F057-7198-17B50E4AC2D6" name="АРЕНДА PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-02-27 11:17:04 UTC</createdTime>
+<ownerDesignName>3_1_и</ownerDesignName>
+<engineerTo>
+<item key="E057032E-4CFB-2A13-8AA1-EE85F29F5CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D504D4E-0FBD-991D-8EAC-038F2A9CBC65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
