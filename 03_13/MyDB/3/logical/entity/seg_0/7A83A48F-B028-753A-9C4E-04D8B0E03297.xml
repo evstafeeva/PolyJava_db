@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A83A48F-B028-753A-9C4E-04D8B0E03297" name="ADDRESS">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-26 19:13:53 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Store Сard" id="6F55F804-4DAA-BF6F-34AF-719394ACEA52">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-26 19:14:22 UTC</createdTime>
+<generatorID>233DACA4-2228-94AB-079B-8BDDCDFBD5A4</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<referedAttribute>EEDAE106-75ED-EF53-40A8-9275F2BBB688</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="FFE1DCF9-34A4-9DB2-51A7-04631CA4AC45">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-26 19:15:22 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="12E9B082-F7C7-8F7B-BF39-25036678FB2B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-26 19:15:33 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Город" id="F69170ED-80F1-7FE0-EE41-CA6D475372A2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 16:51:51 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Почтовый Индекс" id="E8B1B2CE-D926-56D7-2D5B-1F3D896160A8">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 16:51:59 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7565587B-D528-2384-DA34-0A14B29F793A" name="АДРЕС PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-26 19:15:32 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFE1DCF9-34A4-9DB2-51A7-04631CA4AC45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

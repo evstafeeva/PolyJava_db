@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E701EAB-89C8-EE85-575A-E55222F93CEF" containerWithKeyObject="D322AEF1-A7E9-DD19-CA7C-B1C735AEAF27" localFKIndex="CEBAB802-C95B-8E8B-0AB7-846D002B1DDB" name="SLR_SLR_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>79212CB0-A61A-814B-B4C5-9BD4DFBDAEDF</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<referredTableLongName>SALER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D322AEF1-A7E9-DD19-CA7C-B1C735AEAF27</referredTableID>
+<keyObject>7112C7F1-37DF-67B7-990C-869D67A881A8</keyObject>
+<referredKeyID>7112C7F1-37DF-67B7-990C-869D67A881A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Badge_Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

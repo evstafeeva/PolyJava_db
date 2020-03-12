@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D19EA134-5791-E846-8112-E37630C24291" name="STORE">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:15:02 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F5E9E526-0674-22D9-A60B-B0052A397FCE">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:15:20 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество" id="6D1E6393-D17C-501C-76DF-1B0E4AF379FC">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:15:30 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Оптовая Цена" id="B649DEB3-3457-684F-4560-BD9EDB526033">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:15:38 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="283AE24A-53C1-D714-76A4-F35401EA6525" name="Товар на складе PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:15:46 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5E9E526-0674-22D9-A60B-B0052A397FCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

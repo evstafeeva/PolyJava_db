@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C4346BF-E171-B247-2576-179375F08FF2" name="DEPARTMENT">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:48:22 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3C9FB7FD-04E1-254F-809E-D7225361650A">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:48:29 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="ED1A29EA-2974-8194-6E74-449F7EDE6C4E">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:48:34 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Head" id="71A193AB-46D3-A76B-2CC6-8BE014A494D6">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:48:40 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89F47D4B-A15D-0383-A9F9-8E95A8FC6EE5" name="DEPARTMENT PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:48:32 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C9FB7FD-04E1-254F-809E-D7225361650A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

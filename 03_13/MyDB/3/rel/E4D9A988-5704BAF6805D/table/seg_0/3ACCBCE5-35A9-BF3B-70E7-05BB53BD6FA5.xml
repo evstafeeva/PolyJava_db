@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ACCBCE5-35A9-BF3B-70E7-05BB53BD6FA5" name="CUSTOMER">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>A478B25C-ECAB-70A3-E48D-1DCE2137BB9A</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<abbreviation>CTM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Store_Сard" id="49BE9C87-AE12-9F2C-DED0-28E1C2AEFEF1">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>EEDAE106-75ED-EF53-40A8-9275F2BBB688</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<abbreviation>SC</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Почта" id="4B2A6B30-8174-0DFF-1D0C-6A3A84E1398E">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>B2D972EF-1CE7-C0E6-890F-3EB6007BD999</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Имя" id="8113F32F-9EF5-5907-7918-D8FEEB9F530B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>91A8B1C5-08F2-F53D-F8D7-FA93B9BD68BA</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Фамилия" id="927B9619-E3CA-7F4F-0E72-F077F3CBB63B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>17084593-FC28-A881-2771-121FC2B45791</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Отчество" id="C19407B8-3D01-C720-632D-F209369A2578">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>9607D9B0-F2CD-965F-621C-DB21A5B890B0</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Баланс" id="AA800989-5A19-09C7-2D51-C0D98222591B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>03BC657A-F57C-F894-80C4-D5EB33D75CA9</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Телефон" id="C4F3CC9E-2022-D939-2575-C27EC8EF9AA7">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>AA715241-2A9C-85A0-A631-B79A5AA20726</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SLR_Badge_Number" id="32791601-52ED-87FA-DC3E-A1C8667F7D96">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>EE1D59B0-4D2B-B8BE-16A7-5C79FB0EAE05</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81F8DE4C-30C1-88AB-10EF-73B38490F28D" referredColumn="8245B755-4A8E-C4F2-62B0-BB5C3386905F"/>
+</associations>
+</Column>
+<Column name="Название_Команды" id="8A81C248-F958-EF4A-A07C-5759752E85C2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>AD2A357E-B444-D27D-25FF-0B016F7C101B</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TM_ID" id="96F31A05-FB86-78DD-8D8C-29060D1C2438">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>145611B6-54F6-0285-6920-B6CD906706CC</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B9C1339-DC81-8F71-A008-BCAABEC44956" referredColumn="70083F55-B70D-3A96-DBA5-9A8B0E328F02"/>
+</associations>
+</Column>
+<Column name="Карта_Лояльности" id="730C629F-1D1A-E020-B2EB-0256033AE666">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>860FB328-C574-354C-F024-052A6DB82945</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D5C7BEF-0483-94BE-0FFE-BBA7872A08F1" name="CTM_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>24B5BEF9-334D-955F-3FF2-E40452F98922</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49BE9C87-AE12-9F2C-DED0-28E1C2AEFEF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2568764-6E22-D327-96B4-8B507D97642D" name="CTM_Почта_UN">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>36C1C1C6-969E-544B-504B-8C1586A27768</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2A6B30-8174-0DFF-1D0C-6A3A84E1398E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4657071E-1F83-3056-947A-91C3BA619EC1" name="CTM__IDX">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="96F31A05-FB86-78DD-8D8C-29060D1C2438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E54912C-0D97-A8A6-3A6E-14002EF374C1" name="CSR_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>B76423A6-F480-C663-314C-231231D1D212</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32791601-52ED-87FA-DC3E-A1C8667F7D96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19C340D3-AB6A-2B43-22FE-015BD2C02FE4" name="CTM_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96F31A05-FB86-78DD-8D8C-29060D1C2438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

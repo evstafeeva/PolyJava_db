@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05AD3BB3-F387-E47D-4A93-4C564B6CE55E" name="TEAM">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>BB565F30-273A-C19E-2DD2-BEBDDB1B505C</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="70083F55-B70D-3A96-DBA5-9A8B0E328F02">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>D1D7051F-4480-1596-68CA-6DA608D75EDA</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="219506D3-C57B-BAAF-E65B-B7186F28B6A4">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>7669443E-EF01-2606-8473-0D37C7493833</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Число_Игроков" id="7B999D6C-7265-AC70-3CAF-1659BFED97B7">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>BA3953AC-FA38-17FB-C861-D578F311DD09</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTM_Store_Сard" id="498DFFDA-6697-4377-466B-5CA96A74158E">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>A316BE95-EAD9-C025-7CCC-5F48947B241F</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53753EE4-8B44-63F3-2D33-38E002152A9E" referredColumn="49BE9C87-AE12-9F2C-DED0-28E1C2AEFEF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0F4DE8B-C2F0-4C8E-C504-953B48716838" name="TM_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>3CB0EC4C-8BB6-B7BE-DDEB-9A14C7EE2C85</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70083F55-B70D-3A96-DBA5-9A8B0E328F02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="090778CD-075B-CC33-B47B-A6CB789CC0F6" name="TM__IDX">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="498DFFDA-6697-4377-466B-5CA96A74158E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8682C64C-D64E-5CE9-A3C0-3693F5F7367C" name="TM_CTM_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 20:06:54 UTC</createdTime>
+<generatorID>9DC53090-E31E-B01D-C62B-0CF3CECA7F39</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="498DFFDA-6697-4377-466B-5CA96A74158E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

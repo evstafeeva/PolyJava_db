@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93CB7FD2-6877-D6FF-237C-056A47B90C56" name="PARENTD_INFORMATION">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>667D22CF-FB0E-6150-4A7E-46980CF221C5</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9F40A57D-ED46-D5A8-1AB7-FFC8AAFC95F5">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>7F8A3BD7-0AEA-AB6A-5914-5AB57F505606</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent1_FirstName" id="932BD384-0F35-BA1A-7000-875D19DC3E20">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>ED852B10-F34D-3AAD-3DF4-35FD4988C07B</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent1_LasttName" id="BD44F0B9-F2D1-B864-03F4-6D1377916AFD">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>A17FAD26-B658-CAE3-7246-113701E243B7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent2_FirstName" id="B3599961-73BD-C949-6708-82F096D6602A">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>5ECC737D-ED64-76AA-F068-C4556C064A1F</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent2_LasttName" id="ED5C3DE3-53FB-6866-309C-C384A5ED9EC2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>08A29FCB-91AF-A775-E257-9F0E91485146</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAFE34EC-0772-64C4-5CEE-47EDD9BCDD6A" name="PARENTD_INFORMATION_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>4D9B7DD0-BD50-93BF-3E9E-E1B0EAA2A79A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F40A57D-ED46-D5A8-1AB7-FFC8AAFC95F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C381F9F-9E2E-C857-AC41-FFC164E86DF8" name="STUDENT_ATTENDANCE">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>A7130C99-0D92-CC5B-0426-F20FDC385CD7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number_of_Working_Days" id="540DDE9F-BBA3-5A2D-D685-B790A29609C2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>9DF01BE5-1BCB-F757-35FD-CAA5650772ED</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Namber_of_Days_off" id="BB57230B-FAFF-6393-82DE-7982E3832A26">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>8BEE520E-ECF3-15FC-E0D5-2612C063F90F</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eligibility_for_Exam" id="0EAC9912-B73C-444D-59EC-B99EEAB28B32">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>FC27A866-16B5-0855-85CD-A2C14246B808</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="61453699-5611-A041-9F10-00F91D3E9721">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>66FED80E-54F7-5479-7AD8-DE0AB257D6C6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A31CFA7D-0073-D52C-73A1-A134FA3F1BC5" referredColumn="92B97CC9-6DA3-D7D1-3B65-574AF4244CD4"/>
+</associations>
+</Column>
+<Column name="ACADEMIC_SESSION_ID" id="8DB8B236-D26D-90B9-41C4-CA541D7CE863">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>20530CBF-8C36-89F2-6DE5-8C0FEF238264</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05147AE8-05DA-6BC5-70DE-99F3B8A9012F" referredColumn="F63D1DB7-F26B-04C1-A4F0-51C4DFA50AB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F837F4A-ADCE-C841-CA8F-C04154DF394A" name="STUDENT_ATTENDANCE_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>956D15B0-2A2E-3B85-AB5B-51EA61B3ECAB</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61453699-5611-A041-9F10-00F91D3E9721"/>
+<colUsage columnID="8DB8B236-D26D-90B9-41C4-CA541D7CE863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCA338E5-764B-342F-D64E-034D2F8E261A" name="STUDENT_ATTENDANCE_STUDENT_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>B348BAB4-66D8-5797-9E02-3984DAE2D30A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61453699-5611-A041-9F10-00F91D3E9721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEC721F5-4FE2-790F-1B8A-EF844DF20D86" name="STUDENT_ATTENDANCE_ACADEMIC_SESSION_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>510CD2AD-939C-C704-53D7-178A6496CF47</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB8B236-D26D-90B9-41C4-CA541D7CE863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DAD9E4-3E01-E5A1-0554-71AD043743D8" name="EXAM_RESULT">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>6E74E9F7-FB55-A318-F6C2-A3A5AF216E5A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Grade" id="42B6C7D7-ECB1-1D81-F6D4-2574E2DD82E1">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>2D377D92-6AB0-FD91-4298-E69FF6F00090</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="2DA18FC7-255F-CE14-A250-690537A9C9C9">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>92F8C642-D0B0-3F81-EA59-311B15320FE5</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="693EC171-F11B-8581-3BAA-319579D0F659" referredColumn="92B97CC9-6DA3-D7D1-3B65-574AF4244CD4"/>
+</associations>
+</Column>
+<Column name="COURSE_ID" id="1E353FA8-6891-B496-6B5D-1E88DEDA72A9">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>FB7118EA-88EF-355A-46C5-AD1CE27ADD81</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AD27D54-E931-6A2C-2C81-B263A436275E" referredColumn="7F4B1FF2-08F4-23CA-A149-E6AEDF0441E9"/>
+</associations>
+</Column>
+<Column name="Exam_ID" id="385E4FC8-8839-417A-5E59-38CA31EF87BD">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>20B3DAE6-9C12-E441-A8CE-0CBCAC9969D9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5AA32C3-2C29-3C08-7DA9-0658EAFB9E60" referredColumn="B3DFE5F7-E7B6-4F27-C788-602792AEA116"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D77A7338-834C-77C8-FC37-D0421B31FF8E" name="EXAM_RESULT_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>D8C56D52-7C73-33AF-F2C9-D95CFACB0C69</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA18FC7-255F-CE14-A250-690537A9C9C9"/>
+<colUsage columnID="1E353FA8-6891-B496-6B5D-1E88DEDA72A9"/>
+<colUsage columnID="385E4FC8-8839-417A-5E59-38CA31EF87BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE60F842-0789-D6C0-355A-E58FD260C6BD" name="EXAM_RESULT_STUDENT_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>6DD162E7-D831-502D-60C4-EE64C025B1DD</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA18FC7-255F-CE14-A250-690537A9C9C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49249C0D-820B-DD09-5C71-B40354E23470" name="EXAM_RESULT_COURSE_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:55 UTC</createdTime>
+<generatorID>27A914A1-75FE-0107-9C1B-61C1CE8C2A19</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E353FA8-6891-B496-6B5D-1E88DEDA72A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2700AC4-A879-D5E7-F7AC-42DFDCC3CCA8" name="EXAM_RESULT_Exam_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:55 UTC</createdTime>
+<generatorID>494593FE-AAC6-9D97-E819-908EC392B25B</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="385E4FC8-8839-417A-5E59-38CA31EF87BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

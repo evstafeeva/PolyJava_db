@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3D30263-07C7-96EB-BCE9-5EECBDEF05BE" name="FULL_TIME">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>5A1F6472-DC82-CFBD-50B3-F2EB7F674D5E</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3E0B7505-133B-41F9-AFE7-65ADB5F97A49">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>36840E86-CC46-949E-8BF7-74CB40306DF6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40B787CE-B0CD-0AE6-0B92-DE4A0D15CBB7" referredColumn="E24401F0-D303-B877-8AA0-CC63B2F43BEE"/>
+</associations>
+</Column>
+<Column name="Salary" id="7B7FC6C1-5B56-1533-400C-5B71AD8CC31E">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>0B234BDB-F3E5-BB0A-23E7-47FE7D36F4B6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_plan" id="B4F7F83A-1E2D-4EA5-41B0-E1B146177B7A">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>2771929A-B8E2-9578-B515-EA65D445D2C7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7C39629-F4F0-FFD1-5511-D3EFB7B8A0BC" name="FULL_TIME_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>D0B3080E-9A92-7C38-7A38-398393212D67</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E0B7505-133B-41F9-AFE7-65ADB5F97A49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3EC20A4-46DC-EBC8-C689-67CCF23E01E4" name="FULL_TIME_FACULTY_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>DA6C6834-36A3-3EA5-3950-DBDDE29D5622</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E0B7505-133B-41F9-AFE7-65ADB5F97A49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

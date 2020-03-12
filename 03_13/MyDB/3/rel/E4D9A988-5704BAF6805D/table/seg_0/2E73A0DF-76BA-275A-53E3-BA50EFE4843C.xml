@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E73A0DF-76BA-275A-53E3-BA50EFE4843C" name="ITEM">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>6AD936C6-241B-6A34-43C4-35452212E0FA</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4BB56888-67B9-AFEA-D336-642529747C17">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>BC332ECD-17D8-E6D8-EFE9-54F0207F658E</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Цена" id="0A9EA579-9D13-8905-7ADA-2E1D45BEBDF2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>81B66CB9-4938-030A-5BBB-99AEE2CED95F</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Название" id="9B6B5E57-C39A-29AB-CD3F-1E5AECBF47DC">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>7A634671-99DB-90F7-CC33-B36BC60020EB</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Категория" id="EA9EC72C-0DA1-69B4-EF8C-27C1EB64A35E">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>2F6B69B8-DECA-9D92-69F4-12B7674EA8D3</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Описание" id="0FCA20F1-4D40-37EC-D47C-5129BBB952C4">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>6BB7FAE7-41E0-4CF6-217F-52BB9DD54BB0</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Цвет" id="379B7A80-DFF7-7E62-3A1E-3189E434F07C">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>6159E0C4-1EC4-8CC3-AE3D-B867F75E9D8D</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Размер" id="E30B6DDA-ECA7-C67C-B8AF-C9CE2CC8EF0F">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>3343A66A-B418-BDBF-9CE9-9732EE6C0639</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STR_ID" id="1C77D704-E0AF-48EE-C7CD-232A153D50CF">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>23671753-79D6-1884-99D4-5CBA94D2EB31</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82F4E97F-CD27-210E-89B8-1DF4DD084A1B" referredColumn="17197600-B9F4-35C8-AA4C-7CCD8E9DEC91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3D995A4-73DF-BCC1-CF2F-07F391DC39A4" name="ITM_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>67FF70B8-46DD-91DC-5A4E-04C3D3B0CDF0</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB56888-67B9-AFEA-D336-642529747C17"/>
+<colUsage columnID="1C77D704-E0AF-48EE-C7CD-232A153D50CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2A76395-1EC9-7F5E-284C-8E34B3E3CAD7" name="ITM_ST_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:32:47 UTC</createdTime>
+<generatorID>9C2855DF-CC1D-511E-4508-C5988B42DA32</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C77D704-E0AF-48EE-C7CD-232A153D50CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2117E4E-AB5F-EB25-0EAA-0D1EAD9A7619" name="COURSE">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:38:14 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FECBDF5F-9B49-BDDE-B806-6BD5303F3C25">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:38:26 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A64BF3C1-9784-8C31-0380-2B4DF6442076">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:38:30 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="60A2F7C5-247D-C038-F8AF-5BC6CB4A8F9A">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:53:08 UTC</createdTime>
+<generatorID>8D9FA035-9E82-A297-00BB-DC7F01FF6F34</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>8E460BAF-6DED-0B9E-6934-D9B6FD9FD94A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Logon Id" id="088FEDD2-CECA-1A39-ADD0-F42C9F06A32E">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:54:50 UTC</createdTime>
+<generatorID>AB84D7E1-6B8E-ABF5-979A-C300AAE852B7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>F4F932A1-B387-733A-B291-1E1397AB738A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building" id="D8872C0E-43A8-D5DB-2679-E3DF404E0305">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:54:58 UTC</createdTime>
+<generatorID>2AF60925-1D3E-1ED2-167E-82F305062BA9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>FBD78AC5-9E1E-AA88-504D-7BF0C5081647</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room" id="8D691A44-B2F1-2948-8BF2-26C94D0B7F8C">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:54:58 UTC</createdTime>
+<generatorID>2AF60925-1D3E-1ED2-167E-82F305062BA9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>8EB1FD44-B241-4E69-1449-AD4BE0CD6261</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="1273FBED-CBAA-459E-EFFD-ABC6DE5EBAEB">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:54:58 UTC</createdTime>
+<generatorID>2AF60925-1D3E-1ED2-167E-82F305062BA9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>FB328ED6-FE90-C747-C9D7-BE395C75C9C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="FA036724-D1EC-2F26-A5F4-994341E01BBF">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:54:58 UTC</createdTime>
+<generatorID>2AF60925-1D3E-1ED2-167E-82F305062BA9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>49AF5D10-FA8F-66C2-A62F-3A386905996E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="B6C758BB-3079-7417-0E72-52858310A878">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:55:17 UTC</createdTime>
+<generatorID>9EB1B91A-3F68-21E0-9C75-09859A161AB7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>3C9FB7FD-04E1-254F-809E-D7225361650A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50557410-79FC-9D90-1CB7-27D24D337D3B" name="COURSE PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:38:29 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FECBDF5F-9B49-BDDE-B806-6BD5303F3C25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

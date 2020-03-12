@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7130C99-0D92-CC5B-0426-F20FDC385CD7" name="STUDENT ATTENDANCE">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:36:21 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number of Working Days" id="9DF01BE5-1BCB-F757-35FD-CAA5650772ED">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:36:43 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Namber of Days off" id="8BEE520E-ECF3-15FC-E0D5-2612C063F90F">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:36:56 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eligibility for Exam" id="FC27A866-16B5-0855-85CD-A2C14246B808">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:37:08 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="66FED80E-54F7-5479-7AD8-DE0AB257D6C6">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:50:42 UTC</createdTime>
+<generatorID>B348BAB4-66D8-5797-9E02-3984DAE2D30A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>C95A567E-9765-CB5F-5F06-0986FA0DE5DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="20530CBF-8C36-89F2-6DE5-8C0FEF238264">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:52:19 UTC</createdTime>
+<generatorID>510CD2AD-939C-C704-53D7-178A6496CF47</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>8E460BAF-6DED-0B9E-6934-D9B6FD9FD94A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="956D15B0-2A2E-3B85-AB5B-51EA61B3ECAB" name="STUDENT ATTENDANCE PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:50:50 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66FED80E-54F7-5479-7AD8-DE0AB257D6C6</attributeRef>
+<attributeRef>20530CBF-8C36-89F2-6DE5-8C0FEF238264</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

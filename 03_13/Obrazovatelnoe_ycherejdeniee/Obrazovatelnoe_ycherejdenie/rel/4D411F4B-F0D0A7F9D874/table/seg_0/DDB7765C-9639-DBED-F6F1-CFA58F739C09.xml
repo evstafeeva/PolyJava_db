@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB7765C-9639-DBED-F6F1-CFA58F739C09" name="STUDENT_COURSE_DETAIL">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>5FD23B62-3741-F16D-086B-231645639567</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Grade" id="F8F363FC-AF12-4D97-D02A-0B8878385FBC">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>5851E601-B226-7283-8706-903090FF5CB4</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="9174CC1A-45DE-6ED2-FC8F-A5B519B0697F">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>1D06DCD0-1C99-D0B8-93A0-481D7971E170</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49B6B44F-A6AC-2C36-C96A-E0880EA1EFEF" referredColumn="92B97CC9-6DA3-D7D1-3B65-574AF4244CD4"/>
+</associations>
+</Column>
+<Column name="COURSE_ID" id="D26BD235-870A-95C6-513D-BE4AD6984B57">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>37CCC2BA-03FA-3A0F-9566-E1C3B5B44795</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13F6A039-9033-EAEE-5E69-7BECC2FC06EC" referredColumn="7F4B1FF2-08F4-23CA-A149-E6AEDF0441E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0757B89A-106C-7CF0-45CF-D944430A0AC4" name="STUDENT_COURSE_DETAIL_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>50670F78-DBB6-10D5-4FAD-EC82F9037063</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9174CC1A-45DE-6ED2-FC8F-A5B519B0697F"/>
+<colUsage columnID="D26BD235-870A-95C6-513D-BE4AD6984B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F945624D-C117-1922-0766-37B689735086" name="STUDENT_COURSE_DETAIL_COURSE_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>8F615BCE-5661-E0F2-D239-64E130A73A01</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D26BD235-870A-95C6-513D-BE4AD6984B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BA47B0-DB88-01A2-4119-4E9D08073CB8" name="STUDENT_COURSE_DETAIL_STUDENT_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>23A16120-DAA4-198E-86C8-B499AB4057C8</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9174CC1A-45DE-6ED2-FC8F-A5B519B0697F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

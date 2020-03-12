@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A478B25C-ECAB-70A3-E48D-1DCE2137BB9A" name="CUSTOMER">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:05:32 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+<discriminatorAttributeID>03BC657A-F57C-F894-80C4-D5EB33D75CA9</discriminatorAttributeID>
+<discriminatorColumnName>фф</discriminatorColumnName>
+<discriminatorValue>ффф</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Store Сard" id="EEDAE106-75ED-EF53-40A8-9275F2BBB688">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:05:44 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Почта" id="B2D972EF-1CE7-C0E6-890F-3EB6007BD999">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:09:16 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="91A8B1C5-08F2-F53D-F8D7-FA93B9BD68BA">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:05:54 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Фамилия" id="17084593-FC28-A881-2771-121FC2B45791">
+<createdBy>Alena</createdBy>
+<createdTime>2020-03-05 06:56:17 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Отчество" id="9607D9B0-F2CD-965F-621C-DB21A5B890B0">
+<createdBy>Alena</createdBy>
+<createdTime>2020-03-05 06:56:29 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Баланс" id="03BC657A-F57C-F894-80C4-D5EB33D75CA9">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:06:34 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Телефон" id="AA715241-2A9C-85A0-A631-B79A5AA20726">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:09:03 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Badge Number" id="EE1D59B0-4D2B-B8BE-16A7-5C79FB0EAE05">
+<createdBy>skazk</createdBy>
+<createdTime>2020-02-25 11:50:50 UTC</createdTime>
+<generatorID>B76423A6-F480-C663-314C-231231D1D212</generatorID>
+<ownerDesignName>3</ownerDesignName>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAC500C2-6AEF-DF22-25ED-750B7ACDCB02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24B5BEF9-334D-955F-3FF2-E40452F98922" name="Покупатель PK">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-14 10:05:53 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EEDAE106-75ED-EF53-40A8-9275F2BBB688</newElementsIDs>
+<usedAttributes>
+<attributeRef>EEDAE106-75ED-EF53-40A8-9275F2BBB688</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="36C1C1C6-969E-544B-504B-8C1586A27768" name="Key_2">
+<createdBy>Alena</createdBy>
+<createdTime>2020-02-21 10:27:43 UTC</createdTime>
+<ownerDesignName>3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E4D9A988-7028-5567-335C-5704BAF6805D" value="false"/>
+</engineerTo>
+<newElementsIDs>B2D972EF-1CE7-C0E6-890F-3EB6007BD999</newElementsIDs>
+<usedAttributes>
+<attributeRef>B2D972EF-1CE7-C0E6-890F-3EB6007BD999</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

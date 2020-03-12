@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D022D4-C062-C749-DB89-6296351A0F09" name="PART_TIME">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>C2BB7619-3913-F431-F361-CCFD4E13E1DF</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="ADC013A3-1072-EE8A-D15A-A38FF91901C3">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>36840E86-CC46-949E-8BF7-74CB40306DF6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6453E12-5837-0A4C-1DD9-3DAF536E64F3" referredColumn="E24401F0-D303-B877-8AA0-CC63B2F43BEE"/>
+</associations>
+</Column>
+<Column name="hourly_rate" id="E7113D5D-337C-ACB7-BD86-4004F0E0ADA5">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>EBBF7084-CDE1-2C72-3245-5BCE3A496CFF</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66F31CEB-1D76-6B10-4F2F-B2B1124A94D6" name="PART_TIME_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>D0B3080E-9A92-7C38-7A38-398393212D67</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC013A3-1072-EE8A-D15A-A38FF91901C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB7C84D4-592B-C090-F4D5-D8CDC18725DA" name="PART_TIME_FACULTY_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 19:24:54 UTC</createdTime>
+<generatorID>995CEE85-63C0-D2B2-7702-7FE0BF9ABE1D</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC013A3-1072-EE8A-D15A-A38FF91901C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
