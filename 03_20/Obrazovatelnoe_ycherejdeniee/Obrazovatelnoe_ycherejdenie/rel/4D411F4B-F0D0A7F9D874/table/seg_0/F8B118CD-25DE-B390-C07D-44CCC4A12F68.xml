@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8B118CD-25DE-B390-C07D-44CCC4A12F68" name="XAM_TYPES">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>32767BA4-368F-D0E9-DE72-98403D0D5D5C</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYP" id="20544760-98FF-B5E6-7096-8DAC46F7F7FD">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>B6747476-1853-8CCF-E585-06319AE6DB20</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="7EA411D2-CF05-E084-F1CC-04FCE11DA2F5">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>8EE00AD0-BF28-F716-7B75-F3E27EE48221</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC" id="AABD98AA-F87F-5DDE-33E2-2C63E923E1C9">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>C6BFCE06-DBEB-B367-1DDD-A08B057C1F42</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8182986-3355-37CE-B629-8F5099DB8176" name="XAM_TP_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>8E362194-63BB-5E61-4EBA-01312058CE7D</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20544760-98FF-B5E6-7096-8DAC46F7F7FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

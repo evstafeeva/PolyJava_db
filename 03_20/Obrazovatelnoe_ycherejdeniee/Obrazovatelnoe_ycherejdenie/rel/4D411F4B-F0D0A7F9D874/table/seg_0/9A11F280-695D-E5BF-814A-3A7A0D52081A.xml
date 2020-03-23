@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A11F280-695D-E5BF-814A-3A7A0D52081A" name="COURSES">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>D2117E4E-AB5F-EB25-0EAA-0D1EAD9A7619</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5546EF21-CF4A-8CFA-D25F-BC3747614EE3">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>FECBDF5F-9B49-BDDE-B806-6BD5303F3C25</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="FA89F587-A0F4-3199-929E-F329D681B03D">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>A64BF3C1-9784-8C31-0380-2B4DF6442076</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACD_SESS_ID" id="437E74C4-69BE-6D39-47C6-3AF047737AD7">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>60A2F7C5-247D-C038-F8AF-5BC6CB4A8F9A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4375BDD8-EA56-3A80-5F27-B7F4FEAE51F6" referredColumn="88A1D527-8451-397D-4428-741FB570289E"/>
+</associations>
+</Column>
+<Column name="ONLN_LGN_ID" id="DD32694A-34A7-560C-A537-D2B8C4C6EF43">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>088FEDD2-CECA-1A39-ADD0-F42C9F06A32E</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4BCCCAF-2E9F-24E5-DF0C-0103F46C283F" referredColumn="7660EC76-3B44-97B3-517A-CA914B21A357"/>
+</associations>
+</Column>
+<Column name="STD_BLD" id="0C9BE47E-B551-8BA7-8C0A-35C879DFADFC">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>D8872C0E-43A8-D5DB-2679-E3DF404E0305</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A65AC51-CC2B-A6FE-BFFE-F58648802073" referredColumn="D1A64E07-50BC-CD9D-B371-F7B65C1B8C2B"/>
+</associations>
+</Column>
+<Column name="STD_Room" id="F2F99743-1DD1-074C-1589-1ECE1CD59590">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>8D691A44-B2F1-2948-8BF2-26C94D0B7F8C</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A65AC51-CC2B-A6FE-BFFE-F58648802073" referredColumn="9E1C07C9-CCE3-29A8-C2DC-84596A478CAF"/>
+</associations>
+</Column>
+<Column name="STD_DTE" id="BAA2944D-2646-ABFD-22E8-77ED11CD4D38">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>1273FBED-CBAA-459E-EFFD-ABC6DE5EBAEB</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A65AC51-CC2B-A6FE-BFFE-F58648802073" referredColumn="84833A33-CB18-B2FC-7AEF-E6D372C41AC9"/>
+</associations>
+</Column>
+<Column name="STD_TME" id="5E0C6BF7-DBE4-6359-E68F-C2021E6DFE57">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>FA036724-D1EC-2F26-A5F4-994341E01BBF</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A65AC51-CC2B-A6FE-BFFE-F58648802073" referredColumn="098A09DD-1069-BDE1-D6A3-61EEBDAD8C10"/>
+</associations>
+</Column>
+<Column name="DEPRT_ID" id="843E973E-E8B1-11EE-66FB-20D30DD45C26">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>B6C758BB-3079-7417-0E72-52858310A878</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A3EDFFB-AEA3-D484-FFC5-1CA0D40CE36C" referredColumn="EEB26796-A30C-C46F-3C3E-D3BDECDBE455"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCA0261B-8899-5453-0C4B-EE8DA8934967" name="CRS_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>50557410-79FC-9D90-1CB7-27D24D337D3B</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5546EF21-CF4A-8CFA-D25F-BC3747614EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="630B4E83-F580-57BF-97EA-20FAB0B41BF9" name="CRS_ONLN_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>AB84D7E1-6B8E-ABF5-979A-C300AAE852B7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD32694A-34A7-560C-A537-D2B8C4C6EF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="324466B7-1B18-DD9C-4E54-23243CC9C718" name="CRS_STD_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>2AF60925-1D3E-1ED2-167E-82F305062BA9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C9BE47E-B551-8BA7-8C0A-35C879DFADFC"/>
+<colUsage columnID="F2F99743-1DD1-074C-1589-1ECE1CD59590"/>
+<colUsage columnID="BAA2944D-2646-ABFD-22E8-77ED11CD4D38"/>
+<colUsage columnID="5E0C6BF7-DBE4-6359-E68F-C2021E6DFE57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB1FB6C6-2DF3-AF98-939A-1565ED185944" name="CRS_DEPRT_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>9EB1B91A-3F68-21E0-9C75-09859A161AB7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843E973E-E8B1-11EE-66FB-20D30DD45C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D40071-CFD5-9558-10E4-9691BB63754F" name="CRS_ACD_SESS_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>8D9FA035-9E82-A297-00BB-DC7F01FF6F34</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="437E74C4-69BE-6D39-47C6-3AF047737AD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

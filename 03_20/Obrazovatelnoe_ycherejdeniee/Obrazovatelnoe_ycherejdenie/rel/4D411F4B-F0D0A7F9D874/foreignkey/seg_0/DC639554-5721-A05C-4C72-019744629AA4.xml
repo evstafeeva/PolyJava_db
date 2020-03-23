@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC639554-5721-A05C-4C72-019744629AA4" containerWithKeyObject="32874054-B574-9F17-BC92-39CA57F0CF3F" localFKIndex="C7F8CF6B-D3CD-B2E0-0E81-80E7B4787F54" name="STD_ATND_ACD_SESS_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>510CD2AD-939C-C704-53D7-178A6496CF47</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<referredTableLongName>ACD_SESSIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB85970B-4F78-F2DF-0740-EE7292CFCDCF</referredTableID>
+<keyObject>8D33EE52-F617-3F21-6D4D-60553DCF368F</keyObject>
+<referredKeyID>8D33EE52-F617-3F21-6D4D-60553DCF368F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71F436F2-2752-6E24-DDDF-70C057D96B1C" name="FACULTIES">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>37417901-D06E-C1F7-F0BD-4B8FDD30CB7F</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="401A06BC-50FE-66D7-E881-CF1F204F88F0">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>36840E86-CC46-949E-8BF7-74CB40306DF6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIR_Name" id="C4C49DA0-3119-E374-66FD-76A99CD56D2B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>4A17560D-ECB4-DD64-C42B-38DC188070BD</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LST_Name" id="90FB2552-E94F-D35C-76D2-B5A3256C1DED">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>2190A10B-44F7-0587-8AF0-69E611DE754C</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EML" id="AA35290C-39A1-15A6-5640-07617F8BB07D">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>FA4CD12B-09C9-9DC6-F229-E99A76A9EA4C</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPRT_ID" id="7A9AD61B-C798-E5F2-7547-EBB93F6C55F8">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>0C9640E9-E889-C4A4-EC87-EEAFC24A2304</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D10FAE70-4542-7132-CB43-C6A6B8B2A5B9" referredColumn="EEB26796-A30C-C46F-3C3E-D3BDECDBE455"/>
+</associations>
+</Column>
+<Column name="SLY" id="B2C4FE14-29B3-BB88-140B-A3AC618FE174">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 13:12:18 UTC</createdTime>
+<generatorID>0B234BDB-F3E5-BB0A-23E7-47FE7D36F4B6</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISU_PLA" id="1630B42C-BE14-C7AC-3D25-B15BE9B63F25">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 13:12:18 UTC</createdTime>
+<generatorID>2771929A-B8E2-9578-B515-EA65D445D2C7</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hourly_RAT" id="84444C91-FC61-2745-486D-02A6E6E4D8D6">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 13:12:18 UTC</createdTime>
+<generatorID>EBBF7084-CDE1-2C72-3245-5BCE3A496CFF</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF0F98F-613E-893C-4163-37145256B6C4" name="FAC_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>D0B3080E-9A92-7C38-7A38-398393212D67</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="401A06BC-50FE-66D7-E881-CF1F204F88F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B271FAD-2A7A-FD29-7240-995A33369319" name="FAC_DEPRT_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>1F92DF8A-5F74-7D47-6D3E-1B84FF703664</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A9AD61B-C798-E5F2-7547-EBB93F6C55F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

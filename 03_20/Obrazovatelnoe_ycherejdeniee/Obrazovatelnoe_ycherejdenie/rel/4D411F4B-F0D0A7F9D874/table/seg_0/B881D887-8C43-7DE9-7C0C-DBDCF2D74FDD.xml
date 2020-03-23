@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B881D887-8C43-7DE9-7C0C-DBDCF2D74FDD" name="XAM_RESULTS">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>6E74E9F7-FB55-A318-F6C2-A3A5AF216E5A</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRD" id="3CFB71D4-071B-7D6C-FFC7-251E7CF89BB2">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>2D377D92-6AB0-FD91-4298-E69FF6F00090</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUD_ID" id="A2705B34-273A-EC9D-747A-0D963CBEFF28">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>92F8C642-D0B0-3F81-EA59-311B15320FE5</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD148DBE-54D4-7D76-84A8-F6055B2FFE10" referredColumn="0D7D93E1-964F-BDEF-F9D8-BD8BC7323B87"/>
+</associations>
+</Column>
+<Column name="CRS_ID" id="8C061334-578D-4F4A-141B-99180EAE3B1B">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>FB7118EA-88EF-355A-46C5-AD1CE27ADD81</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E2E9BFC-955F-0676-93B1-E0B799D28E86" referredColumn="5546EF21-CF4A-8CFA-D25F-BC3747614EE3"/>
+</associations>
+</Column>
+<Column name="XAM_ID" id="3CC4A9E2-389A-942B-64C7-EF0C4E9DDA21">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>20B3DAE6-9C12-E441-A8CE-0CBCAC9969D9</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAB8AA5A-CDBE-633A-3A9F-A70C616D70A5" referredColumn="9416FF3B-78AA-6E35-9460-B97B74915FC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8F6A6F4-FD39-51AF-76EB-C871ACD71C40" name="XAM_RES_PK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>D8C56D52-7C73-33AF-F2C9-D95CFACB0C69</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2705B34-273A-EC9D-747A-0D963CBEFF28"/>
+<colUsage columnID="8C061334-578D-4F4A-141B-99180EAE3B1B"/>
+<colUsage columnID="3CC4A9E2-389A-942B-64C7-EF0C4E9DDA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A87A4A07-DC71-692C-F70D-5EF0A9D7E41B" name="XAM_RES_STUD_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>6DD162E7-D831-502D-60C4-EE64C025B1DD</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2705B34-273A-EC9D-747A-0D963CBEFF28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D134C343-EBA4-7BEB-C59D-CAF3EA1B5043" name="XAM_RES_CRS_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>27A914A1-75FE-0107-9C1B-61C1CE8C2A19</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C061334-578D-4F4A-141B-99180EAE3B1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9AF2048-9DF5-C7AC-78BB-1FB22F70331F" name="XAM_RES_XAM_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>494593FE-AAC6-9D97-E819-908EC392B25B</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC4A9E2-389A-942B-64C7-EF0C4E9DDA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

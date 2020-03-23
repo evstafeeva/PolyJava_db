@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAB8AA5A-CDBE-633A-3A9F-A70C616D70A5" containerWithKeyObject="B881D887-8C43-7DE9-7C0C-DBDCF2D74FDD" localFKIndex="D9AF2048-9DF5-C7AC-78BB-1FB22F70331F" name="XAM_RES_XAM_FK">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-23 12:51:20 UTC</createdTime>
+<generatorID>494593FE-AAC6-9D97-E819-908EC392B25B</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<referredTableLongName>XAM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F606AA2-0E7E-23B5-F941-9839C158534C</referredTableID>
+<keyObject>FDAABCFE-C125-8F94-4FFF-1F3D464DC62A</keyObject>
+<referredKeyID>FDAABCFE-C125-8F94-4FFF-1F3D464DC62A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

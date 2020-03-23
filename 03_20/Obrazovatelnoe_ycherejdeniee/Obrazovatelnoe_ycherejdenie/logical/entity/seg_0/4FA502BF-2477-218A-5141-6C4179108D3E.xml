@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FA502BF-2477-218A-5141-6C4179108D3E" name="FACULTY COURSE DETAIL">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:44:42 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Contact Hours" id="96AF0F1D-04FA-23C4-66ED-0467C67213F9">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:44:54 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="5CFF3956-FCE9-2D84-1F05-C6F0CDCEC9C0">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:56:07 UTC</createdTime>
+<generatorID>9EDE594B-87CE-363D-6F9C-12DDD8A5FB16</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>36840E86-CC46-949E-8BF7-74CB40306DF6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="0A1447BF-3902-09E5-D464-A345E6B7D156">
+<createdBy>skazk</createdBy>
+<createdTime>2020-03-12 17:14:41 UTC</createdTime>
+<generatorID>B7186D33-2C50-E8A4-9067-D24651E97748</generatorID>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<referedAttribute>FECBDF5F-9B49-BDDE-B806-6BD5303F3C25</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CC63536-33ED-69BD-EF70-BCF217339228" name="FACULTY COURSE DETAIL PK">
+<createdBy>sinel</createdBy>
+<createdTime>2020-03-06 09:56:07 UTC</createdTime>
+<ownerDesignName>Obrazovatelnoe_ycherejdenie</ownerDesignName>
+<engineerTo>
+<item key="4D411F4B-BACE-319C-BDD0-F0D0A7F9D874" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CFF3956-FCE9-2D84-1F05-C6F0CDCEC9C0</attributeRef>
+<attributeRef>0A1447BF-3902-09E5-D464-A345E6B7D156</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
